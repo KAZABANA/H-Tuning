@@ -9,8 +9,8 @@
 # H-Tuning Fine-Tuning and Evaluation on the Downsteam Datasets.
 * In this repo, we provide the backbones pre-trained by our team, so you can directly fine-tune them on the downstream datasets using the proposed H-Tuning method.
 * First, you can use the function 'dataset_organize' in the datacollection.py to preprocess the four downstream datasets.
-* Then, in the command window, you can the command below to reproduce the results of the CE-SSL algorithm. The saved output file presents the performance of the algorithm.
+* Then, in the command window, you can the command below to reproduce the results of H-Tuning. The saved output file presents the performance of the algorithm.
 ```
-nohup python -u main.py --model_config 'medium' --finetune_label_ratio 0.10 --task 'within' --r 16 --seed 18 --device "cuda:3" > training_ecg_seed18_extra.log 2>&1 &
+nohup python -u main.py --model_config 'medium' --finetune_label_ratio 0.10 --task 'within' --r 16 --seed 18 --device "cuda:3" > training_ecg_seed18.log 2>&1 &
 ```
 
