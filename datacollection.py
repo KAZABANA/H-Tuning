@@ -26,7 +26,6 @@ def setup_seed(seed):
 
 def ECGdataset_prepare_finetuning_sepe(args):
     os.chdir(args.root + '/Preprocessed_dataset')
-    #os.chdir('/home/rushuangzhou/FlashECG_root/Preprocessed_dataset')
     hf = h5py.File('class_sepe'+str(args.num_class)+'_dataset_' + args.finetune_dataset + '_'+'32.hdf5', 'r')
     hf.keys()
     train_label_set = np.array(hf.get('label_set'))
