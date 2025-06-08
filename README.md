@@ -11,6 +11,6 @@
 * First, you can use the function 'dataset_organize' in the datacollection.py to preprocess the four downstream datasets.
 * Then, in the command window, you can the command below to reproduce the results of H-Tuning. The saved output file presents the performance of the algorithm.
 ```
-nohup python -u main.py --model_config 'medium' --finetune_label_ratio 0.10 --task 'within' --r 16 --seed 18 --device "cuda:3" > training_ecg_seed18.log 2>&1 &
+* nohup python -u main.py --model_config 'medium' --finetune_label_ratio 0.10 --task 'within' --r 16 --seed 18 --device "cuda:3" > training_ecg_seed18.log 2>&1 &
 ```
 
