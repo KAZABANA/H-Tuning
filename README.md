@@ -1,4 +1,4 @@
-# A Pytorch implementation of our paper H-Tuning: H-Tuning: Toward Low-Cost and Efficient ECG-based Cardiovascular Disease Detection with Pre-Trained Models
+# A Pytorch implementation of our paper H-Tuning: Toward Low-Cost and Efficient ECG-based Cardiovascular Disease Detection with Pre-Trained Models
 # [ICML 2025](https://icml.cc/virtual/2025/poster/45284)
 # Preliminaries
 * Four downstream datasets: The Chapman-Shaoxing dataset, the PTB-XL dataset, the Ningbo dataset, and the G12EC dataset.
