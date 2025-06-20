@@ -19,7 +19,6 @@ zhou2025htuning,
 title={H-Tuning: Toward Low-Cost and Efficient {ECG}-based Cardiovascular Disease Detection with Pre-Trained Models},
 author={Rushuang Zhou and Yuanting Zhang and Yining Dong},
 booktitle={Forty-second International Conference on Machine Learning},
-year={2025},
-url={https://openreview.net/forum?id=RLu1QIPiVr}
+year={2025}
 }
 
