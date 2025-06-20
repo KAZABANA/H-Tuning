@@ -3,7 +3,7 @@
 # Preliminaries
 * Four downstream datasets: The Chapman-Shaoxing dataset, the PTB-XL dataset, the Ningbo dataset, and the G12EC dataset.
 * quick download the four downsteam datasets: wget -r -N -c -np https://physionet.org/files/challenge-2021/1.0.3/
-* The pre-trained backbones are too large to upload, we will provide the link to access them soon.
+* The pre-trained backbones are available on [Hugging Face](https://huggingface.co/KAZABANA/Foundation-Models-for-ECG-classification/tree/main).
 * Requirements: you can use (pip install -r requirements.txt) to install all the related packages used in our paper.
 # H-Tuning Fine-Tuning and Evaluation on the Downsteam Datasets.
 * In this repo, we provide the backbones pre-trained by our team, so you can directly fine-tune them on the downstream datasets using the proposed H-Tuning method.
