@@ -12,4 +12,14 @@
 ```
 nohup python -u main.py --model_config 'medium' --finetune_label_ratio 0.10 --task 'within' --r 16 --seed 18 --device "cuda:3" > training_ecg_seed18.log 2>&1 &
 ```
+# Citation
+If you find our work helps your research, please kindly consider citing our paper in your publications.
+@inproceedings{
+zhou2025htuning,
+title={H-Tuning: Toward Low-Cost and Efficient {ECG}-based Cardiovascular Disease Detection with Pre-Trained Models},
+author={Rushuang Zhou and Yuanting Zhang and Yining Dong},
+booktitle={Forty-second International Conference on Machine Learning},
+year={2025},
+url={https://openreview.net/forum?id=RLu1QIPiVr}
+}
 
